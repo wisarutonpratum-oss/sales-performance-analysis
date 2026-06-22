@@ -62,11 +62,17 @@ Explore the live Power BI dashboard here:
 ### 1) Dashboard Overview
 ![Dashboard Overview](assets/dashboard-overview.png)
 
+---
+
 ### 2) Product Profitability
 ![Product Profitability](assets/product-profitability.png)
 
+---
+
 ### 3) Geographical Analysis
 ![Geographical Analysis](assets/geographical-analysis.png)
+
+---
 
 ### 4) Discount Impact
 ![Discount Impact](assets/discount-impact.png)
