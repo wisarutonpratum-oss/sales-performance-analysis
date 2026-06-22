@@ -20,36 +20,34 @@ The key stakeholder questions were:
 ## SQL
 The SQL layer of this project was used to answer the core business questions behind the dashboard:
 
-- **KPI Summary:** total sales, profit, order volume, customer count, and overall margin
-- **Category & Sub-category Analysis:** identify high-performing and loss-making product groups
-- **Geographical Analysis:** compare revenue and profitability across regions and states
-- **Discount Impact Analysis:** evaluate whether higher discounts were associated with lower profit margins
-- **Texas Root Cause Analysis:** drill into category and sub-category performance to explain why Texas generated high sales but negative profit
+- Cleaned and validated the Superstore dataset
+- Built KPI summaries for sales, profit, orders, and customers
+- Analyzed sales and profit by category, sub-category, region, and state
+- Calculated profit margin across product groups and geographies
+- Investigated the relationship between discount levels and profitability
+- Performed root-cause analysis on underperforming markets such as Texas
 
 ### Python
 - Used for basic data inspection before analysis, including checking table structure, row counts, missing values, duplicates, and summary statistics
 
 ### Power BI
-- Built a multi-page dashboard to present executive performance, product profitability, geographic performance, and discount impact
-- Designed 4 dashboard pages:
-  - Dashboard Overview
-  - Product Profitability
-  - Geographical Analysis
-  - Discount Impact
-- Used KPI cards, bar charts, maps, and comparison visuals to turn the analysis into business-facing insights
+- Built a 4-page dashboard to present executive performance, product profitability, geographic performance, and discount impact
+- Designed visuals to move from high-level KPI monitoring into root-cause analysis
+- Used KPI cards, trend charts, sub-category profitability views, regional breakdowns, and discount analysis visuals to support business recommendations
 
 ---
 
 ## 4. Key Findings
 
-- The business generated **$2.30M in sales** and **$286.4K in profit** from **9,994 orders lines** across **793 unique customers**.
-- **Technology** was the strongest-performing category, delivering both the **highest revenue** and **highest profit**, while **Furniture** had the **lowest profitability** with a margin of only **2.49%**.
-- Within Furniture, **Tables** were the biggest loss-making sub-category, and together with **Bookcases**, they generated **more than $21K in combined losses** despite strong sales.
+- The business generated **$2.30M in revenue** and **$286.4K in profit** from **9,994 order lines** across **793 unique customers**.
+- **Technology** was the strongest-performing category, delivering both the **highest revenue** and **highest profit**.
+- **Furniture** significantly underperformed, generating a profit margin of only **2.49%**, far below the healthier margins seen in **Technology** and **Office Supplies**.
+- Within Furniture, **Tables** and **Bookcases** were the primary drivers of poor profitability, generating **more than $21K in combined losses** despite strong sales performance.
 - **Copiers** stood out as one of the most profitable product lines, achieving a **37.2% profit margin**.
-- Geographically, the **West** region generated the **highest revenue**, while the **Central** region had the weakest profitability.
-- At the state level, **Texas** generated over **$170K in sales** but still recorded a **-$25.7K loss**, making it the least profitable state.
-- In Texas, the biggest profitability issue came from **Office Supplies**, which recorded a **-41.77% margin**, followed by **Furniture** at **-17.22%**.
-- Discount analysis suggested that **higher discount levels were associated with lower profitability**, indicating that aggressive discounting may be eroding margins rather than driving healthy growth.
+- Geographically, the **West** region generated the **highest revenue**, while the **Central** region had the weakest profitability overall.
+- At the state level, **Texas** generated over **$170K in revenue** but still recorded a **-$25.7K loss**, making it the least profitable state in the dataset.
+- In Texas, the largest profitability issue came from **Office Supplies**, which recorded a **-41.77% margin**, followed by **Furniture** at **-17.22%**.
+- Discount analysis suggested that **higher discount levels were associated with weaker profitability**, indicating that aggressive discounting may be eroding margins rather than driving healthy growth.
 
 ---
 
@@ -78,23 +76,23 @@ Explore the live Power BI dashboard here:
 ## 6. Recommendations
 
 ### 1) Review Furniture pricing and discount strategy
-Furniture generated weak profitability despite contributing meaningful sales. The business should review pricing, discount levels, and cost structure for **Tables** and **Bookcases**, which were the primary drivers of category losses.
+Furniture generated meaningful sales but delivered weak profitability. The business should review pricing, discount levels, and margin structure for **Tables** and **Bookcases**, which were the main drivers of category losses.
 
-### 2) Reduce unprofitable discounting
-Since higher discount levels were associated with lower profitability, discount policies should be tightened—especially for low-margin products and underperforming states. Discounts should be tested selectively rather than applied broadly.
+### 2) Tighten discounting on low-margin products
+Since higher discount levels were associated with weaker profitability, discount policies should be reviewed—especially for already low-margin products. Discounts should be applied selectively and evaluated based on profit impact, not just revenue lift.
 
 ### 3) Investigate Texas as a priority turnaround market
-Texas generated strong revenue but substantial losses, which suggests a profitability problem rather than a demand problem. The business should review:
-- product mix sold in Texas
-- discounting behavior by category
-- shipping or fulfillment costs if relevant
+Texas generated strong revenue but substantial losses, suggesting a profitability problem rather than a demand problem. The business should review:
+- category mix sold in Texas
+- discounting patterns by product group
 - whether low-margin Office Supplies are being over-promoted
+- operational or pricing issues specific to the state
 
-### 4) Double down on profitable product lines
-The company should continue investing in high-performing categories and sub-categories such as **Technology** and **Copiers**, which demonstrated strong profit contribution and healthy margins.
+### 4) Double down on high-performing product lines
+The company should continue investing in profitable categories and sub-categories such as **Technology** and **Copiers**, which demonstrated strong profit contribution and healthy margins.
 
-### 5) Monitor profitability beyond top-line sales
-Strong revenue alone can hide underperforming categories and states. Management should track **sales, profit, and margin together** by category, sub-category, and region to avoid growing unprofitable segments.
+### 5) Monitor margin alongside revenue
+Strong sales alone can hide underperforming categories and markets. Management should track **revenue, profit, and margin together** by category, sub-category, region, and state to avoid scaling unprofitable segments.
 
 ---
 
