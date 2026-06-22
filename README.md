@@ -17,12 +17,14 @@ The key stakeholder questions were:
 
 ## 3. Tools & Process
 
-### SQL
-- Cleaned and validated the Superstore dataset
-- Built KPI summaries for sales, profit, orders, and customers
-- Analyzed sales and profit by category, sub-category, region, and state
-- Calculated profit margin across product groups and geographies
-- Investigated discount impact on profitability
+## SQL
+The SQL layer of this project was used to answer the core business questions behind the dashboard:
+
+- **KPI Summary:** total sales, profit, order volume, customer count, and overall margin
+- **Category & Sub-category Analysis:** identify high-performing and loss-making product groups
+- **Geographical Analysis:** compare revenue and profitability across regions and states
+- **Discount Impact Analysis:** evaluate whether higher discounts were associated with lower profit margins
+- **Texas Root Cause Analysis:** drill into category and sub-category performance to explain why Texas generated high sales but negative profit
 
 ### Python
 - Used for basic data inspection before analysis, including checking table structure, row counts, missing values, duplicates, and summary statistics
@@ -111,7 +113,8 @@ sales-performance-analysis/
 │  ├─ profit_by_region.sql
 │  ├─ profit_by_state.sql
 │  ├─ profit_margin_analysis.sql
-│  └─ discount_impact.sql
+│  ├─ dsicount_impact.sql
+│  └─ texas_root_cause_analysis.sql
 │
 ├─ powerbi/
 │  └─ sales_performance_dashboard.pbix
