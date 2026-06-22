@@ -40,7 +40,7 @@ The key stakeholder questions were:
 
 ## 4. Key Findings
 
-- The business generated **$2.30M in sales** and **$286.4K in profit** from **9,994 orders** across **793 unique customers**.
+- The business generated **$2.30M in sales** and **$286.4K in profit** from **9,994 orders lines** across **793 unique customers**.
 - **Technology** was the strongest-performing category, delivering both the **highest revenue** and **highest profit**, while **Furniture** had the **lowest profitability** with a margin of only **2.49%**.
 - Within Furniture, **Tables** were the biggest loss-making sub-category, and together with **Bookcases**, they generated **more than $21K in combined losses** despite strong sales.
 - **Copiers** stood out as one of the most profitable product lines, achieving a **37.2% profit margin**.
