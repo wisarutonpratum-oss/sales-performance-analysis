@@ -116,7 +116,7 @@ sales-performance-analysis/
 ├─ powerbi/
 │  └─ sales_performance_dashboard.pbix
 │
-├─ images/
+├─ assets/
 │  ├─ dashboard-overview.png
 │  ├─ product-profitability.png
 │  ├─ geographical-analysis.png
