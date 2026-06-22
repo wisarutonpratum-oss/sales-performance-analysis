@@ -60,16 +60,16 @@ Explore the live Power BI dashboard here:
 [Open Interactive Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=54954f21-4362-442b-866b-901f415fb7f9&autoAuth=true&ctid=fe3fbfc3-740c-40d3-a502-14423e1ca052&actionBarEnabled=true)
 
 ### 1) Dashboard Overview
-![Dashboard Overview](images/dashboard-overview.png)
+![Dashboard Overview](assets/dashboard-overview.png)
 
 ### 2) Product Profitability
-![Product Profitability](images/product-profitability.png)
+![Product Profitability](assets/product-profitability.png)
 
 ### 3) Geographical Analysis
-![Geographical Analysis](images/geographical-analysis.png)
+![Geographical Analysis](assets/geographical-analysis.png)
 
 ### 4) Discount Impact
-![Discount Impact](images/discount-impact.png)
+![Discount Impact](assets/discount-impact.png)
 
 ---
 
